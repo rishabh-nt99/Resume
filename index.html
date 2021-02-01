@@ -2,11 +2,19 @@
 <html lang="en">
 
   <head>
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="description" content="Rishabh Nautiyal | Year 3 Computer Science Student | Resume Webpage">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+
+    <!-- Meta Tags for Link Cards -->
+    <meta property="og:title" content="Rishabh Nautiyal Resume">
+    <meta property="og:image" content="img/dp.jpg">
+    <meta property="og:type" content="Personal Resume Website">
+    <meta name="author" content="Rishabh Nautiyal">
+    <meta property="og:description" content="Rishabh Nautiyal | Year 3 Computer Science Student | Resume Webpage">
+    <meta property="og:url" content="https://www.rishabhnautiyal.com">
+    <meta name="twitter:card" content="Rishabh Nautiyal | Year 3 Computer Science Student | Resume Webpage">
 
     <title>Rishabh Nautiyal Resume</title>
 
@@ -76,11 +84,11 @@
           <h1 class="mb-0"> <span style="color: black;">Rishabh</span> 
             <span class="text-primary">Nautiyal</span>
           </h1>
-          <div class="subheading mb-5"> &nbsp;Following My Passion With a Degree! <br> &nbsp;YEar 3 . Computer Science Student <br>
-            <a href="mailto:rishabh.nt99@gmail.com">&nbsp;rishabh.nt99@gmail.com</a> <br> <br>
-            <a href="mailto:rishabh.nt99@gmail.com" class="btn btn-primary">Download CV</a>
+          <div class="subheading" >Year 3 Computer Science Student | 
+            <a href="mailto:rishabh.nt99@gmail.com">&nbsp;rishabh.nt99@gmail.com</a> 
           </div>
-          <p class="mb-5">.</p>
+          <p class="mb-4">Following my passion with a degree! I am an aspiring ML researcher. I plan to learn and integrate modern technologies to bring about social change via simple solutions.</p>
+          <a href="files/cv.pdf" download class="btn btn-primary mb-5">Download CV</a>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="mailto:rishabh.nt99@gmail.com" target="_blank">
@@ -220,7 +228,7 @@
                   Python
                 </li>
                 <li>
-                  Tesnoflow
+                  Tensorflow
                 </li>
                 <li>
                   OpenCV 
@@ -265,13 +273,19 @@
                 ReactJS
               </li>
               <li>
-                Java / C++/C#
+                Java/Junit Testing
+              </li>
+              <li>
+                C++/C#
               </li>
               <li>
                 HTML/CSS/JavaScript
               </li>
               <li>
                 Bootstrap
+              </li>
+              <li>
+                ReactJS
               </li>
               <li>
                 SDLC
@@ -283,36 +297,34 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="ml-projects">
         <div class="my-auto">
           <h2 class="mb-5">Machine Learning Projects</h2>
+
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Speech to Text Conversion and Summarisation</h3>
+            <div class="subheading mb-3">Python: Speech_Recognition</div>
+            <p>Model to convert Audio to Text using the SpeecRecognition library in Python. It furture included unsupersived topic modelling using gensim model to create a summary of the text and give a list of topics from the converted text.</p>
+          </div>
           
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Credit-Card Defaulter Prediction</h3>
-              <div class="subheading mb-3">Python</div>
-              <p></p>
-            </div>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Credit-Card Defaulter Prediction</h3>
+            <div class="subheading mb-3">Group Project: Python</div>
+            <p>One of my first Data Science projects in Python. I used scikitlearn and applied various classifier functions like XGBoost, Random Forest, Decision Tree Classifier, Clustering analysis on a data set from Kaggle to predict Credit Card Payment Defaulters from the given attributes.</p>
+          </div>
 
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Sentiment Analysis</h3>
-              <div class="subheading mb-3">Python: NLTK</div>
-              <p></p>
-            </div>
-
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Speech to Text Conversion and Summarisation</h3>
-              <div class="subheading mb-3">Python: Speech_Recognition</div>
-              <p></p>
-            </div>
-
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Arieal Cactus Image Prediction</h3>
-              <div class="subheading mb-3">Python: Tensorflow</div>
-              <p></p>
-            </div>
-
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">AI Game Bot: Dots and Crosses</h3>
-              <div class="subheading mb-3">Python</div>
-              <p></p>
-            </div>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Arieal Cactus Image Prediction</h3>
+            <div class="subheading mb-3">Python: Tensorflow</div>
+            <p>A Tensorflow CNN based project to recognize if an arieal image (satellite image) contains a cactus or not. The Project used various image augumentation techniques to improve accuracy and reached an accuracy of 96%</p>
+          </div>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Sentiment Analysis</h3>
+            <div class="subheading mb-3">Python: Scikit Learn</div>
+            <p>A Sentiment Analysis project on the Amazon_Unlocked_Mobile reviews dataset. The sentiment analysis was done using Bag of Words approach using CountVectorizer. I minimized the number of features based on TFIDF by setting the min_df to five and used n-gram techniques to give contextual meaning to the data </p>
+          </div>
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">AI Game Bot: Dots and Boxes</h3>
+            <div class="subheading mb-3">Python</div>
+            <p>An ML Project to play the game Dots And Boxes. I used to MinMax approach with Alpha Beta pruning and other game heuristics to create an AI Bot.</p>
+          </div>
         </div>
       </section>
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="se-projects">
@@ -321,20 +333,24 @@
           
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Othello Game</h3>
-              <div class="subheading mb-3">Java</div>
-              <p></p>
+              <div class="subheading mb-3">Group Project: Java</div>
+              <p>A command line based java game developed with all the Software Engineering Design Principles in mind. The project included Junit Testing and Algoriths to play against the computer.</p>
             </div>
-
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Restraunt Reservtion System</h3>
+              <div class="subheading mb-3">Java</div>
+              <p>Restaurant table booking system in java with features to smartly allocate tables based on availability and group size.</p>
+            </div>
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Co-Working Space Reservtion System</h3>
               <div class="subheading mb-3">Java</div>
-              <p></p>
+              <p>A Group Project to Prototype a Co-working space systems using Software Design Patterns and Principles</p>
             </div>
 
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Websites</h3>
               <div class="subheading mb-3">HTML/CSS/JavaScript/Bootstrap/PhP</div>
-              <p></p>
+              <p>I have done multiple website projects including personal websites, websites for CityU and CityU Staff.</p>
             </div>
         </div>
       </section>
@@ -382,7 +398,7 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              CityHack 2021: Winner</li>
+              CityHack 2021: Champions</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               International Students Scholarship: 100% Tutition Fees Covered</li>
